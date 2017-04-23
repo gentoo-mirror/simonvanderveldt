@@ -1,0 +1,15 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+media-sound/cadence:a2jmidid - Enable dependency on the media-sound/a2jmidid bridge to allow managing it from Cadence
+media-sound/carla:distrho-prom - Enable builtin DISTRHO plugins
+media-sound/carla:gig - Enable builtin GIG sample support using media-sound/linuxsampler
+media-sound/carla:gtk2 - Use gtk-2 instead of gtk-3
+media-sound/carla:hylia - Enable Ableton Link support
+media-sound/carla:rdf - Enable LADSPA-RDF support
+media-sound/carla:sf2 - Enable builtin SF2 sample support using media-sound/fluidsynth
+media-sound/carla:sfz - Enable builtin SFZ sample support using media-sound/linuxsampler
+media-sound/carla:zynaddsubfx - Enable builtin ZynAddSubFX without UI
+media-sound/carla:zynaddsubfx-ui - Enable builtin ZynAddSubFX FLTK UI
+media-sound/sequencer64:jacksession - Enable JACK session support
