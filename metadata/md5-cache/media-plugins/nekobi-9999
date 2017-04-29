@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install unpack
-DEPEND=standalone? ( ( media-libs/mesa x11-libs/libX11 ) virtual/jack ) dssi? ( X? ( ( media-libs/mesa x11-libs/libX11 ) media-libs/liblo ) ) >=dev-vcs/git-1.8.2.1
+DEPEND=X? ( ( media-libs/mesa x11-libs/libX11 ) ) standalone? ( ( media-libs/mesa x11-libs/libX11 ) virtual/jack ) dssi? ( X? ( media-libs/liblo ) ) >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Simple single-osc synth based on the 303. DISTRHO port to LV2 and VST of nekobee
 EAPI=6
 HOMEPAGE=http://distrho.sourceforge.net/ports
-IUSE=X dssi +lv2 vst standalone
+IUSE=+X dssi +lv2 vst standalone
 LICENSE=GPL-2
-RDEPEND=standalone? ( ( media-libs/mesa x11-libs/libX11 ) virtual/jack ) dssi? ( X? ( ( media-libs/mesa x11-libs/libX11 ) media-libs/liblo ) )
+RDEPEND=X? ( ( media-libs/mesa x11-libs/libX11 ) ) standalone? ( ( media-libs/mesa x11-libs/libX11 ) virtual/jack ) dssi? ( X? ( media-libs/liblo ) )
 REQUIRED_USE=|| ( dssi lv2 vst standalone )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_compile:- src_install:-
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	git-r3	cbafa3261c37c7e3af44bb16a34ea390	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=51305aa4a88446ccfc93a806be92f6f7
+_md5_=9493c9a65de88271c28d4e59afacb431
