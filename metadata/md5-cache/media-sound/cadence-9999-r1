@@ -4,10 +4,9 @@ DESCRIPTION=Collection of tools useful for audio production
 EAPI=6
 HOMEPAGE=http://kxstudio.linuxaudio.org/
 IUSE=-pulseaudio a2jmidid
-KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND==media-sound/jack-audio-connection-kit-1.9.10 dev-python/PyQt4 dev-python/dbus-python >=media-sound/ladish-9999 a2jmidid? ( media-sound/a2jmidid ) pulseaudio? ( media-sound/pulseaudio[jack] )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_compile:- src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=7507da71a64112b3fc21c36fd1e66e03
+_md5_=ebe18cb3a401b65de82aba90100cef81
