@@ -2,6 +2,10 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+media-plugins/nekobi:dssi - Enable building of DSSI plugin
+media-plugins/nekobi:lv2 - Enable building of LV2 plugin
+media-plugins/nekobi:standalone - Enable building of standalone application
+media-plugins/nekobi:vst - Enable building of VST plugin
 media-sound/cadence:a2jmidid - Enable dependency on the media-sound/a2jmidid bridge to allow managing it from Cadence
 media-sound/carla:distrho-prom - Enable builtin DISTRHO plugins
 media-sound/carla:gig - Enable builtin GIG sample support using media-sound/linuxsampler
