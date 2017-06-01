@@ -4,4 +4,4 @@ media-plugins/mverb 9999: DISTRHO port of MVerb, a studio quality open-source re
 media-plugins/nekobi 9999: Simple single-osc synth based on the 303. DISTRHO port to LV2 and VST of nekobee
 media-sound/cadence 9999-r1: Collection of tools useful for audio production
 media-sound/carla 9999-r2: Fully-featured audio plugin host, supports many audio drivers and plugin formats
-media-sound/sequencer64 9999-r1: A significant reboot of Seq24, with additional features and bug fixes
+media-sound/sequencer64 0.91.0 9999-r1: A significant reboot of Seq24, with additional features and bug fixes
