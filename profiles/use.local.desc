@@ -21,4 +21,3 @@ media-sound/carla:sf2 - Enable builtin SF2 sample support using media-sound/flui
 media-sound/carla:sfz - Enable builtin SFZ sample support using media-sound/linuxsampler
 media-sound/carla:zynaddsubfx - Enable builtin ZynAddSubFX without UI
 media-sound/carla:zynaddsubfx-ui - Enable builtin ZynAddSubFX FLTK UI
-media-sound/sequencer64:jacksession - Enable JACK session support
