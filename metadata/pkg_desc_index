@@ -3,4 +3,4 @@ media-plugins/deteriorate-lv2 1.0.6: A set of plugins to deteriorate the sound q
 media-plugins/mverb 9999: DISTRHO port of MVerb, a studio quality open-source reverb
 media-plugins/nekobi 9999: Simple single-osc synth based on the 303. DISTRHO port to LV2 and VST of nekobee
 media-sound/cadence 9999-r1: Collection of tools useful for audio production
-media-sound/carla 9999-r2: Fully-featured audio plugin host, supports many audio drivers and plugin formats
+media-sound/carla 2.0_beta5_p1 9999-r2: Fully-featured audio plugin host, supports many audio drivers and plugin formats
