@@ -8,5 +8,5 @@ LICENSE=GPL-2 LGPL-3
 RDEPEND=!qt5? ( dev-python/PyQt4[X,svg] ) qt5? ( dev-python/PyQt5 ) gtk? ( x11-libs/gtk+:3 ) gtk2? ( x11-libs/gtk+:2 ) virtual/jack alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) X? ( x11-base/xorg-server ) osc? ( media-libs/liblo ) sf2? ( media-sound/fluidsynth ) gig? ( media-sound/linuxsampler ) sfz? ( media-sound/linuxsampler ) rdf? ( dev-python/rdflib ) zlib? ( sys-libs/zlib ) distrho-prom? ( virtual/opengl media-libs/libprojectm ) zynaddsubfx? ( media-libs/liblo sci-libs/fftw:3.0 dev-libs/mini-xml sys-libs/zlib ) zynaddsubfx-ui? ( x11-libs/fltk )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_compile:- src_install:-
-_eclasses_=git-r3	78651c07ca1c1373bf81545d39eb9769
+_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=dcbacb63e771b9dd45217ed1c7d2fde2
