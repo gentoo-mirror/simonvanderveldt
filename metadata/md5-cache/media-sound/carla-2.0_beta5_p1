@@ -9,5 +9,4 @@ LICENSE=GPL-2 LGPL-3
 RDEPEND=!qt5? ( dev-python/PyQt4[X,svg] ) qt5? ( dev-python/PyQt5 ) gtk? ( x11-libs/gtk+:3 ) gtk2? ( x11-libs/gtk+:2 ) virtual/jack alsa? ( media-libs/alsa-lib ) pulseaudio? ( media-sound/pulseaudio ) X? ( x11-base/xorg-server ) osc? ( media-libs/liblo media-libs/pyliblo ) sf2? ( media-sound/fluidsynth ) gig? ( media-sound/linuxsampler ) sfz? ( media-sound/linuxsampler ) rdf? ( dev-python/rdflib ) zlib? ( sys-libs/zlib ) distrho-prom? ( virtual/opengl media-libs/libprojectm ) zynaddsubfx? ( media-libs/liblo sci-libs/fftw:3.0 dev-libs/mini-xml sys-libs/zlib ) zynaddsubfx-ui? ( x11-libs/fltk )
 SLOT=0
 SRC_URI=https://github.com/falkTX/Carla/archive/1.9.7b.tar.gz -> carla-2.0_beta5_p1.tar.gz
-_eclass_exported_funcs=src_compile:- src_install:-
 _md5_=9a2e1fe14817f5bab8ea0b74258086ce
