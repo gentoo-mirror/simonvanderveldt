@@ -5,5 +5,5 @@ EAPI=6
 HOMEPAGE=https://github.com/clvv/fasd
 LICENSE=MIT
 SLOT=0
-_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
 _md5_=829d50edf0800c5f9f60ad27e78c8546
