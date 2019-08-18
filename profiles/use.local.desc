@@ -11,3 +11,5 @@ media-plugins/nekobi:dssi - Enable building of DSSI plugin
 media-plugins/nekobi:lv2 - Enable building of LV2 plugin
 media-plugins/nekobi:standalone - Enable building of standalone application
 media-plugins/nekobi:vst - Enable building of VST plugin
+net-p2p/syncthing-gtk:caja - Enable integration with mate-base/caja
+net-p2p/syncthing-gtk:nautilus - Enable integration with gnome-base/nautilus
