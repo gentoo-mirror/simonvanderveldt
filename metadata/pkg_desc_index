@@ -3,5 +3,4 @@ app-benchmarks/unigine-superposition-bin 1.1: Extreme performance and stability 
 app-benchmarks/unigine-valley-bin 1.0: Extreme performance and stability test for PC hardware
 app-shells/direnv 2.20.1: Automatically load and unload environment variables depending on the current dir
 app-shells/fasd 1.0.1 9999: Quick command-line access to files and directories, inspired by autojump z and v
-media-plugins/mverb 9999: DISTRHO port of MVerb, a studio quality open-source reverb
 sys-apps/rpiboot 9999: Raspberry Pi USB booting tool
